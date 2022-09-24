@@ -1,0 +1,45 @@
+
+/* navigation */
+#navbar{
+    /* flex-direction: column; */
+}
+#navbar ul li a{
+    /* font-size: 1.5rem; */
+}
+
+#home{
+
+}
+
+#services .container{
+flex-direction: column;
+}
+
+.sponsor-section{
+/* overflow: hidden; */
+flex-wrap: wrap;
+}
+
+
+/* @media only screen and (max-width: 576px){
+
+    #navbar{
+        flex-direction: column;
+    }
+} */
+@media (min-width: 355px) and (max-width: 576px){
+    #navbar{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 321px){
+
+  #home{
+    text-align: center;
+  }
+  #navbar{
+    text-align: center;
+  }
+    }
